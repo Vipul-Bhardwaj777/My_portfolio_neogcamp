@@ -1,26 +1,8 @@
-/* Element selectors*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-h1{
-    color: purple;
-}
+/* body selector applies to whole body of page  */
 
-h2{
-    color: blue;
-}
+body{
 
-p{
-    color: red;
-}
-
-/* Id selector */
-
-#para1{
-    color: pink;
-}
-
-/* Class selector */
-
-.para2{
-
-    color: darkgreen;
+    font-family: 'montserrat',sans-serif;
 }
