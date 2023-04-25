@@ -12,6 +12,7 @@
 body {
 
     font-family: 'montserrat', sans-serif;
+    margin: 0px;  /* User stylesheet overriden */
 }
 
 
@@ -150,10 +151,10 @@ hr {
 }
 
 .social-align{
-   text-align: center;   /* this will not work as some web browsers are having their own padding  */
+   text-align: center;   /* this will not work as some web browsers are having their own padding (User stylesheet)  */
 }
 
 footer ul{
 
- padding-inline-start: 0px;      /*changed default padding of browser which was  40px initially */
+ padding-inline-start: 0px;      /*changed default padding of browser (User stylesheet) which was  40px initially */
 }
