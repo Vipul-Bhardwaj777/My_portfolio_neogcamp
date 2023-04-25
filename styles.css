@@ -50,3 +50,49 @@ hr{
     border-radius: 0.5rem;
 }
 
+
+/* List */
+
+.list-nonbullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link-active{
+
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Nav */
+
+.nav{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav .link{
+    color: white;
+}
+
+
+ .dev{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.align{
+    text-align: right;
+}
+
