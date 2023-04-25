@@ -3,7 +3,8 @@
 
 :root{
 --primary-color: #7C3AED; 
---dark-grey: #6b7280 
+--dark-grey: #6b7280;
+--o-w: #9ca3af;
 }
 
 /* body selector applies to whole body of page  */
@@ -120,3 +121,16 @@ hr{
 }
 
 
+/* Section */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--o-w);
+}
