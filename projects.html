@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio website</title>
-
-    <link href="styles.css" rel="stylesheet"/>
+    <title>Portfolio | Projects</title>
+    <link href="/styles.css" rel="stylesheet" />
 </head>
-
 <body>
 
     <nav class="nav">
@@ -16,10 +14,10 @@
 
         <ul class="align">
             <li class="list-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link " href="/">Home</a>
             </li>
 
-            <li class="list-inline">
+            <li class="list-inline link-active">
                 <a class="link" href="/projects.html">Projects</a>
             </li>
 
@@ -31,42 +29,34 @@
 
     </nav>
 
-    <header class="hero">
-        <img class="hero-img" src="media/heropurple.svg" />
-        <h1 class="hero-heading">Vipul the <span class="heading-highlight">web developer</span> </h1>
+    <header>
+       
+        <h1 class="hero-heading">Take a look at my <span class="heading-highlight">- Projects</span> </h1>
 
     </header>
 
-    <section class="section ow">
+    <ul class="list-nonbullet">
+      <div class="container container-center">
 
-        <div class="container-center">
-            <h1>Technologies</h1>
-            <p> I'm familiar with HTML5,CSS3,Git & Github,JavaScript,NodeJS,ReactJS ans Web Hosting. </p>
+        <li class="list-block">
+            <h1>Marvel fan quiz</h1>
+            <small>April,2022</small>
+            <p>A CLI app built with <strong>nodeJS</strong>.You can send this to your friends and find out who is a true marvel fan.</p>
+            <a class="link link-primary" href="/">Live Project</a>
+            <a class="link link-secondary" href="/">Source Code</a>
+        </li>
 
-        </div>
-    </section>
+        <li class="list-block">
+            <h1>Demon slayer fan quiz</h1>
+            <small>April,2022</small>
+            <p>A CLI app built with <strong>nodeJS</strong>.You can send this to your friends and find out who is a true demon slayer fan fan.</p>
+            <a class="link link-primary" href="/">Live Project</a>
+            <a class="link link-secondary" href="/">Source Code</a>
+        </li>
 
-    <section class="section">
 
-        <div class="container-center">
-            <h1>Projects</h1>
-            <p> I like to showcase my work and thus you can see my projects hosted online. </p>
-
-            <a class="link link-primary" href="/projects.html">See Projects</a>
-
-        </div>
-    </section>
-
-    <section class="section ow">
-
-        <div class="container-center">
-            <h1>Blogs</h1>
-            <p> I'm also working on some technical and non-technical blogs. </p>
-
-            <a class="link link-secondary" href="/blogs.html">See Blogs</a>
-
-        </div>
-    </section>
+      </div >
+    </ul>
 
     <footer class="footer">
         <div class="footer-header">Connect with me on</div>
@@ -87,6 +77,8 @@
 
         </ul>
     </footer>
+
+
 
 </body>
 </html>
