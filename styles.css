@@ -5,6 +5,7 @@
     --primary-color:#fb7185;
     --dark-grey: #6b7280;
     --o-w: #d1d5db;
+    --hover-color:#4664a1;
 }
 
 /* body selector applies to whole body of page  */
@@ -28,8 +29,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
-    
+    max-width: 600px;  
     margin: auto;
 }
 
@@ -47,12 +47,22 @@ hr {
     padding: 0.5rem 1rem;
 }
 
+
 .link-primary {
 
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 
+}
+
+.link-primary:hover{
+    background-color:rgb(187, 116, 128);
+}
+
+.link-secondary:hover{
+    background-color:#dddddd;
+    transition: all 0.2s;
 }
 
 .link-secondary {
@@ -68,6 +78,10 @@ font-size: large;
 padding: 0rem;
 color: var(--primary-color);
 
+}
+
+.link-boldheading:hover{
+    color:var(--hover-color);
 }
 
 
@@ -176,6 +190,11 @@ color: var(--primary-color);
 
 .footer .link {
     color: white;
+    
+}
+
+.footer .link:hover {
+    color: var(--hover-color);
 }
 
 .social-align {
