@@ -84,6 +84,12 @@ color: var(--primary-color);
     color:var(--hover-color);
 }
 
+.link-active {
+
+    font-weight: bold;
+}
+
+
 
 
 /* List */
@@ -101,10 +107,6 @@ color: var(--primary-color);
     padding: 1rem;
 }
 
-.link-active {
-
-    font-weight: bold;
-}
 
 
 
@@ -122,6 +124,12 @@ color: var(--primary-color);
 
 .nav .link {
     color: white;
+    
+}
+
+.nav .link:hover{
+    color:white;
+    font-weight: bold;
 }
 
 
@@ -185,7 +193,7 @@ color: var(--primary-color);
 
 .footer-header{
     font-weight: bold;
-    font-size: large;
+    font-size:x-large;
 }
 
 .footer .link {
@@ -194,7 +202,8 @@ color: var(--primary-color);
 }
 
 .footer .link:hover {
-    color: var(--hover-color);
+    color: white;
+    font-weight:bold;
 }
 
 .social-align {
