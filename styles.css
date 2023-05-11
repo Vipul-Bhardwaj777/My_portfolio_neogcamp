@@ -15,8 +15,14 @@ body {
     font-family: 'montserrat', sans-serif;
     margin: 0px;
     /* User stylesheet overriden */
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
 }
 
+main{
+    flex-grow:1;
+}
 
 hr {
     margin: 2rem 0rem;
@@ -25,7 +31,7 @@ hr {
 /* Container */
 
 .container {
-    padding: 2rem 1rem;
+    padding:1rem;
 }
 
 .container-center {
@@ -43,6 +49,7 @@ hr {
 /* Links */
 
 .link {
+    font-family:inherit;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -120,6 +127,8 @@ color: var(--primary-color);
     background-color: var(--primary-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    position:sticky;
+    top:0px;
 }
 
 .nav .link {
