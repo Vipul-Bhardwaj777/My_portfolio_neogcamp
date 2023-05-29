@@ -42,6 +42,8 @@ hr {
 .container-img{
     max-width: 600px;
     padding: 1rem 0rem;
+    height:40vh;
+    width:600px;
     display: block;
     margin: auto;
 }
