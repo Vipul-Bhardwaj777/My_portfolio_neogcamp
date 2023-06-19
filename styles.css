@@ -54,7 +54,10 @@ hr {
     font-family:inherit;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    transition:all 0.2s linear;
+    margin:.5em;
 }
+
 
 
 .link-primary {
@@ -66,12 +69,12 @@ hr {
 }
 
 .link-primary:hover{
-    background-color:rgb(187, 116, 128);
+        font-weight: bold;
 }
 
 .link-secondary:hover{
     background-color:#dddddd;
-    transition: all 0.2s;
+    font-weight: bold;
 }
 
 .link-secondary {
@@ -210,6 +213,7 @@ color: var(--primary-color);
     max-width: 1000px;
     margin: 1em auto;
     border-radius: 10px;
+   
 }
 
 .section h1 {
@@ -238,6 +242,7 @@ color: var(--primary-color);
 .footer-header{
     font-weight: bold;
     font-size:x-large;
+    margin:.5em auto;
 }
 
 .footer .link {
@@ -260,3 +265,32 @@ footer ul {
     padding-inline-start: 0px;
     /*changed default padding of browser (User stylesheet) which was  40px initially */
 }
+
+.icons {
+    margin:.5em 1em;
+    font-size: small;
+    color:white;
+    transition:all 0.3s ;
+     
+}
+
+.icons i{
+    transition:all 0.3s linear;
+}
+.icons i:hover{
+    transform:scale(1.2);
+   
+}
+
+/* .fa-github{
+    color:white;
+    
+}
+
+.fa-twitter{
+    color:rgb(29 161 242);
+}
+
+.fa-linkedin{
+    color:#0077b5;
+} */
