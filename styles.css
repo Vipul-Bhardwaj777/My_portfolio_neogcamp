@@ -54,19 +54,21 @@ hr {
     font-family:inherit;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-right:1em;
+    margin-top: 1em;
 }
 
 
 .link-primary {
 
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius:20px;
     color: white;
 
 }
 
 .link-primary:hover{
-    background-color:rgb(187, 116, 128);
+    color:black;
 }
 
 .link-secondary:hover{
@@ -78,7 +80,7 @@ hr {
 
     color: black;
     border: 1px solid black;
-    border-radius: 0.5rem;
+    border-radius:20px;
    font-weight:lighter;
 }
 
@@ -146,7 +148,6 @@ color: var(--primary-color);
 .nav {
     background-color: var(--primary-color);
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
     position:sticky;
     top:0px;
 }
@@ -176,17 +177,44 @@ color: var(--primary-color);
 /* Header */
 
 .hero {
-    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color:var(--o-w);
+    height:60vh;
+    
+}
+
+.left-hero{
+    max-width:30%;
+    margin:3rem 0;
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    font-size:29px;
+    font-weight:bold;
+    line-height:1.4;
+    color:rgb(95, 93, 93);
+}
+
+.right-hero{
+    max-width:50%;
 }
 
 .hero-img {
-    max-width: 300px;
-    display: block;
-    margin: auto;
+    max-width: 450px;
+    margin-top:2rem;
+    
 }
+
+
+
+#element {
+    color: var(--primary-color);
+}
+
 
 .hero-heading {
     padding-top: 1rem;
+    margin-bottom:2rem;
     color: var(--dark-grey);
     text-align: center;
 }
@@ -194,7 +222,6 @@ color: var(--primary-color);
 .heading-highlight {
     color: var(--primary-color);
 }
-
 
 /* Section */
 
@@ -260,3 +287,76 @@ footer ul {
     padding-inline-start: 0px;
     /*changed default padding of browser (User stylesheet) which was  40px initially */
 }
+
+.blog-ul{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.blog-ul li{
+    margin:0;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size:x-large;
+    margin:.5em auto;
+}
+
+.footer .link {
+    color: white;
+    
+}
+
+.footer .link:hover {
+    color: white;
+    font-weight:bold;
+}
+
+.social-align {
+    text-align: center;
+    /* this will not work as some web browsers are having their own padding (User stylesheet)  */
+}
+
+footer ul {
+
+    padding-inline-start: 0px;
+    /*changed default padding of browser (User stylesheet) which was  40px initially */
+}
+
+.icons {
+    margin:.5em 1em;
+    font-size: small;
+    color:white;
+    transition:all 0.3s ;
+     
+}
+
+.icons i{
+    transition:all 0.3s linear;
+}
+.icons i:hover{
+    transform:scale(1.2);
+   
+}
+
+/* .fa-github{
+    color:white;
+    
+}
+
+.fa-twitter{
+    color:rgb(29 161 242);
+}
+
+.fa-linkedin{
+    color:#0077b5;
+} */
