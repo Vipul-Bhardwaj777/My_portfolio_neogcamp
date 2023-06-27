@@ -63,25 +63,25 @@ hr {
 .link-primary {
 
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
 
 }
 
 .link-primary:hover{
-        font-weight: bold;
+    color: black;
 }
 
 .link-secondary:hover{
     background-color:#dddddd;
-    font-weight: bold;
+    
 }
 
 .link-secondary {
 
     color: black;
     border: 1px solid black;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
    font-weight:lighter;
 }
 
@@ -154,6 +154,9 @@ color: var(--primary-color);
     top:0px;
 }
 
+.nav-img{
+    max-width: 50px;
+}
 .nav .link {
     color: white;
     
@@ -170,11 +173,16 @@ color: var(--primary-color);
     font-weight: bold;
     font-size: 1.1rem;
     color: white;
+   
 }
 
-.align {
+.align-links {
     text-align: right;
+    margin: 0px;
+    
 }
+
+
 
 /* Header */
 
