@@ -8,7 +8,7 @@
     --hover-color:#4664a1;
 }
 
-/* body selector applies to whole body of page  */
+/* body selector applies to whole body of page */
 
 body {
 
@@ -149,7 +149,6 @@ color: var(--primary-color);
 .nav {
     background-color: var(--primary-color);
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
     position:sticky;
     top:0px;
 }
@@ -186,17 +185,49 @@ color: var(--primary-color);
 /* Header */
 
 .hero {
-    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color:var(--o-w);
+    height:60vh;
+
+}
+
+.left-hero{
+    max-width:30%;
+    margin:3rem 0;
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    font-size:29px;
+    font-weight:bold;
+    line-height:1.4;
+    color:rgb(95, 93, 93);
+}
+
+.right-hero{
+    max-width:50%;
 }
 
 .hero-img {
-    max-width: 300px;
-    display: block;
-    margin: auto;
+    max-width: 450px;
+    margin-top:2rem;
+
 }
+
+
+
+#element {
+    color: var(--primary-color);
+}
+
 
 .hero-heading {
     padding-top: 1rem;
+    margin-bottom:2rem;
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+.blog-heading {
     color: var(--dark-grey);
     text-align: center;
 }
@@ -289,6 +320,16 @@ footer ul {
    
 }
 
+main ul{
+    margin:0;
+    padding: 0;
+}
+
+main li{
+margin:0;
+padding: 0;
+
+}
 /* .fa-github{
     color:white;
     
